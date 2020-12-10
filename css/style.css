@@ -37,7 +37,7 @@ img{
 
 
 #header_area  {
-   background: url(/Web/img/header-bg.jpg) ;
+   background: url(/img/header-bg.jpg) ;
    /* background-size: cover; */
     background-repeat: no-repeat;
     background-color: #ffc61a ;
@@ -184,7 +184,7 @@ img{
 
 
 #wish_area  {
-    background: url(/Web/img/sub1-bg.jpg) ;
+    background: url(/img/sub1-bg.jpg) ;
      background-repeat: no-repeat;
      background-size: cover;
     
@@ -207,7 +207,7 @@ img{
  /*================Feedback section=====================*/
 
  #feedback_area  {
-    background: url(/Web/img/sub-bg.jpg) ;
+    background: url(/img/sub-bg.jpg) ;
      background-repeat: no-repeat;
      background-size: cover;
      padding-bottom: 40px;
