@@ -1,0 +1,290 @@
+.btn {
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    color: whitesmoke;
+    background-color: rgb(26, 22, 22);
+}
+* {
+    margin: 0;
+    padding: 0;
+ outline-width: 0;
+}
+h4,h3,h2,h1,h5,h6{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.text-y {
+  color: #ffc61a;
+}
+
+img{
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    text-align: right;
+   
+}
+.navbar-collapse li a {
+    color: #ffffff;
+    font-size: 14px;
+}
+/*==================== Header ===============*/
+
+
+#header_area  {
+   background: url(/Web/img/header-bg.jpg) ;
+   /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-color: #ffc61a ;
+}
+
+.nav-link {
+    background-color: transparent;
+   font-size: 12px;
+   padding: 2px 0;
+   color: white;
+   transition-duration: .4s;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+   'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link:hover {
+   color: rgb(0, 0, 0);
+    background-color:#ffc61a ;
+     border-radius: 10px;
+     margin: 0;
+}
+.logo {
+    width: 115px;
+    height: 40px;
+}
+
+.subHeader h2{
+    margin-top: 65px;
+    font-size:35.74px;
+    color: #ffc61a;
+    margin-bottom: 0;
+}
+.subHeader h1 {
+    font-size: 72.2px;
+    margin-bottom: 0;
+}
+.subHeader small{
+    font-weight: 200;
+    font-size: 17px;
+    letter-spacing: 5px;  
+}
+.subHeader {
+    color: white;
+    padding-bottom:70px;
+}
+/*====================service===============*/
+
+#service_area {
+    background-color: #ffc61a ;
+    padding-top: 50px;
+}
+
+#service_area h3 {
+    font-size: 35px;
+}
+#service_area h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 45px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+#service_area p{
+    line-height: 1em;
+    font-size: 14px;
+}
+
+#service_area [type="ReadMore"]{
+
+   margin-top: 40px;
+
+}
+
+
+.form-area {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  
+}
+.form-control {
+    border: none;
+    border-bottom: rgb(221, 218, 218) solid 3px;
+}
+.sub-head {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: white ;
+}
+
+.form-area h4 span{
+    color: #ffc61a;
+}
+.form-control::placeholder {
+    color: black;
+}
+
+
+/*================ Card section =====================*/
+.card-group {
+    margin-bottom: 50px;
+}
+.card {
+    margin-top: 40px;
+    background-color: rgb(247, 241, 241);
+    border: none;
+    position: relative;
+    padding: 0 15px;
+  
+}
+.card input {
+    background-color: #ffc61a;
+    color: black;
+}
+.card img {
+    top: -60px;
+    position: absolute;
+}
+.card-body {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.head-card {
+    margin-bottom: 90px;
+}
+
+.head-card h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card-3{
+    background-color: #ffc61a;
+}
+.card-3 input {
+    background-color: #000000;
+    color: white;
+}
+
+/*================Wish section =====================*/
+
+
+#wish_area  {
+    background: url(/Web/img/sub1-bg.jpg) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+ }
+ #wish_area h5 {
+     color: #ffc61a;
+     margin-bottom: 15px;
+ }
+ #wish_area img {
+     text-align: center;
+ }
+ .wish-btn {
+     background-color: #ffc61a;
+     color: black;
+ }
+ .wish-row {
+     margin-left: 100px ;
+ }
+
+ /*================Feedback section=====================*/
+
+ #feedback_area  {
+    background: url(/Web/img/sub-bg.jpg) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-bottom: 40px;
+     padding-top: 35px;
+ }
+ #feedback_area h3 {
+     font-size: 45px;
+ }
+
+ #feedback_area h3 span {
+     font-size: 30px;
+ }
+ #feedback_area h4 {
+     font-size: 18px;
+    
+ }
+ .inner_feed {
+     padding-top: 55px;
+ }
+.feed_card  {
+    background-color: black;
+    border-radius: 25px;
+
+}
+
+#contact_area{
+    background-color: #ffc61a;
+}
+
+.inner_contact{
+    padding-bottom: 55px;
+}
+
+.inner_contact h3 {
+    font-weight: 800;
+}
+
+.inner_contact h1 {
+    font-weight: 900;
+    font-size: 55px;
+}
+
+
+#about_area {
+    padding-top: 55px;
+    padding-bottom: 35px;
+    background-color: black;
+    color: white;
+}
+#about_area h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 35px;
+    margin-bottom: 50px;
+    border-bottom: #ffc61a 6px solid;
+}
+#about_area h6 {
+    font-size: 18px;
+}
+
+.icon i{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon p {
+    font-size: 13px;
+}
+
+.icon .fab {
+    color: #ffc61a;
+}
+.fa-android , .fa-apple {
+    font-size: 25px;
+}
+
+#footer_area{
+    background-color: black;
+    color: rgb(245, 243, 243);
+}
